@@ -1,4 +1,4 @@
-setwd('C:/Users/Graham/Desktop/Algorithm')
+setwd('...')
 
 processFile <- function(filepath) {
   # Read input file and output a list of vectors containing vertices and edges (called adjacency list)
