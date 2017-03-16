@@ -13,7 +13,7 @@ sort_and_count <- function(a) {
     x <- sort_and_count(a[1:nby2])
     # Recursive call on the second half
     y <- sort_and_count(a[(nby2+1):n])
-    # Count the split inversion and merge sort x and y
+    # Count split inversions and mergesort x and y
     z <- merge_and_count_split_inv(x$a_sorted, y$a_sorted)
     count <- x$count + y$count + z$count
     a_sorted <- z$a_sorted
