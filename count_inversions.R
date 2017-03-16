@@ -1,8 +1,7 @@
 setwd('...')
 
 sort_and_count <- function(a) {
-  # Compute the number of inversions in the file given, where the ith row of the file indicates the ith entry of an array
-  # and return the sorted array
+  # Compute the number of inversions in array a and return a sorted array
   # Use divide and conquer algorithm
   n <- length(a)
   if (n == 1) {
@@ -10,8 +9,11 @@ sort_and_count <- function(a) {
     return (list(count = 0, a_sorted = a))
   } else {
     nby2 <- ceiling(n/2)
+    # Recursive call on the first half
     x <- sort_and_count(a[1:nby2])
+    # Recursive call on the second half
     y <- sort_and_count(a[(nby2+1):n])
+    # Count the split inversion and merge sort x and y
     z <- merge_and_count_split_inv(x$a_sorted, y$a_sorted)
     count <- x$count + y$count + z$count
     a_sorted <- z$a_sorted
@@ -45,7 +47,7 @@ merge_and_count_split_inv <- function(x,y) {
         d[k] <- y[j]
         j <- j+1
         # If the jth element of y is smaller than the ith element of x,
-        # it is smaller than all elements of x after the ith element
+        # it is smaller than all elements of x that come after the ith element
         count <- count + n_x - i + 1
       }
     }
