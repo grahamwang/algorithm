@@ -44,7 +44,7 @@ def quick_sort_first(x):
             x_large = quick_sort_first(x[i:j+1])
             x = x_small[1] + [x[i-1]] + x_large[1]
             count = n - 1 + x_small[0] + x_large[0]
-        return count, x
+    return count, x
 
 def quick_sort_last(x):
     n = len(x)
@@ -76,7 +76,7 @@ def quick_sort_last(x):
             x_large = quick_sort_last(x[i:j+1])
             x = x_small[1] + [x[i-1]] + x_large[1]
             count = n - 1 + x_small[0] + x_large[0]
-        return count, x
+    return count, x
 
 def quick_sort_median(x):
     n = len(x)
@@ -114,7 +114,7 @@ def quick_sort_median(x):
             x_large = quick_sort_median(x[i:j+1])
             x = x_small[1] + [x[i-1]] + x_large[1]
             count = n - 1 + x_small[0] + x_large[0]
-        return count, x
+    return count, x
 
 # An example. It shows the "median-of-three" pivot rule has the best performance (least number of comparisons)
 with open('QuickSort.txt', 'r') as fhand:
