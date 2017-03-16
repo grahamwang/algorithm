@@ -1,4 +1,4 @@
-setwd('C:/Users/Graham/Desktop/Algorithm')
+setwd('...')
 
 sort_and_count <- function(a) {
   # Compute the number of inversions in the file given, where the ith row of the file indicates the ith entry of an array
