@@ -77,7 +77,7 @@ karger <- function(dat, num_sim) {
       adjacency_list[v2.location] <- NULL
     }
     
-    # Select the minimum number of edges
+    # Find the minimum number of edges
     min_cut <- length(adjacency_list[[1]]) - 1
     if (min_cut < count) {
       count <- min_cut
