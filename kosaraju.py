@@ -96,7 +96,7 @@ G = dict()
 # Read file, construct an adjacency list in which for node i, G[i] = [all nodes to which i has outgoing edges]
 # Keep track of the maximum labeled node
 N_max = 0
-with open('SCC.txt', 'r') as fhand:
+with open('scc5.txt', 'r') as fhand:
     for line in fhand:
         lst = [int(s) for s in line.split()]
         if len(lst) > 0:
