@@ -91,11 +91,11 @@ for i in range(0, len(L)):
     else:
         mid = l[(len(l)+1)/2 - 1]
     M.append(mid)
-print (sum(M) % 10000)
+print(sum(M) % 10000)
 print(time.time()-time_phase1)
 
 # Use heap
 time_phase2 = time.time()
 M = median_maintenance_heap(L)
-print (sum(M) % 10000)
+print(sum(M) % 10000)
 print(time.time()-time_phase2)
