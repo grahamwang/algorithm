@@ -22,21 +22,41 @@ def heap_extract(H, max_or_min):
     n = len(H)
     k = 0
     if max_or_min == 'min':
-        while 2*(k+1)+1 <= n and H[k] > min(H[2*(k+1)-1], H[2*(k+1)]):
-            if min(H[2*(k+1)-1], H[2*(k+1)]) == H[2*(k+1)-1]:
-                H[k], H[2*(k+1)-1] = H[2*(k+1)-1], H[k]
-                k = 2*(k+1)-1
+        while 2*(k+1) <= n:
+            if 2*(k+1)+1 > n:
+                if H[k] > H[2*(k+1)-1]:
+                    H[k], H[2*(k+1)-1] = H[2*(k+1)-1], H[k]
+                    k = 2*(k+1)-1
+                else:
+                    break
             else:
-                H[k], H[2*(k+1)] = H[2*(k+1)], H[k]
-                k = 2*(k+1)
+                if H[k] > min(H[2*(k+1)-1], H[2*(k+1)]):
+                    if min(H[2*(k+1)-1], H[2*(k+1)]) == H[2*(k+1)-1]:
+                        H[k], H[2*(k+1)-1] = H[2*(k+1)-1], H[k]
+                        k = 2*(k+1)-1
+                    else:
+                        H[k], H[2*(k+1)] = H[2*(k+1)], H[k]
+                        k = 2*(k+1)
+                else:
+                    break
     elif max_or_min == 'max':
-        while 2*(k+1)+1 <= n and H[k] < max(H[2*(k+1)-1], H[2*(k+1)]):
-            if max(H[2*(k+1)-1], H[2*(k+1)]) == H[2*(k+1)-1]:
-                H[k], H[2*(k+1)-1] = H[2*(k+1)-1], H[k]
-                k = 2*(k+1)-1
+        while 2*(k+1) <= n:
+            if 2*(k+1)+1 > n:
+                if H[k] < H[2*(k+1)-1]:
+                    H[k], H[2*(k+1)-1] = H[2*(k+1)-1], H[k]
+                    k = 2*(k+1)-1
+                else:
+                    break
             else:
-                H[k], H[2*(k+1)] = H[2*(k+1)], H[k]
-                k = 2*(k+1)
+                if H[k] < max(H[2*(k+1)-1], H[2*(k+1)]):
+                    if max(H[2*(k+1)-1], H[2*(k+1)]) == H[2*(k+1)-1]:
+                        H[k], H[2*(k+1)-1] = H[2*(k+1)-1], H[k]
+                        k = 2*(k+1)-1
+                    else:
+                        H[k], H[2*(k+1)] = H[2*(k+1)], H[k]
+                        k = 2*(k+1)
+                else:
+                    break
     else:
         print('Please specify ''min'' or ''max''')
     return H
@@ -73,29 +93,32 @@ def median_maintenance_heap(L):
                 M.append(H_high[0])
     return M
 
-# Example comparing running times. Heap is much faster
-import time
-L = list()
-with open("Median.txt", "r") as fhand:
-    for line in fhand:
-        L.append(int(line.split()[0]))
+if __name__ == "__main__":
+    # Example comparing running times. Heap is much faster
+    import time
 
-# Use sorting
-time_phase1 = time.time()
-M = []
-for i in range(0, len(L)):
-    l = L[0:i+1]
-    l.sort()
-    if len(l) % 2 == 0:
-        mid = l[len(l)/2 - 1]
-    else:
-        mid = l[(len(l)+1)/2 - 1]
-    M.append(mid)
-print(sum(M) % 10000)
-print(time.time()-time_phase1)
+    L = list()
+    with open("Median.txt", "r") as fhand:
+        for line in fhand:
+            L.append(int(line.split()[0]))
 
-# Use heap
-time_phase2 = time.time()
-M = median_maintenance_heap(L)
-print(sum(M) % 10000)
-print(time.time()-time_phase2)
+    # Use sorting
+    time_phase1 = time.time()
+    M = []
+    for i in range(0, len(L)):
+        l = L[0:i + 1]
+        l.sort()
+        if len(l) % 2 == 0:
+            mid = l[len(l) / 2 - 1]
+        else:
+            mid = l[(len(l) + 1) / 2 - 1]
+        M.append(mid)
+    print (sum(M) % 10000)
+    print(time.time() - time_phase1)
+
+    # Use heap
+    time_phase2 = time.time()
+    M = median_maintenance_heap(L)
+    print (sum(M) % 10000)
+    print(time.time() - time_phase2)
+
