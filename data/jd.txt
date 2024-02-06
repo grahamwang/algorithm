@@ -1,0 +1,139 @@
+As an Investment Quantitative Developer, the ideal candidate will draw on their extensive background in financial models and software development principles to help architect technology solutions for a fast-paced market-driven environment. A background in fixed income and equity instrument modeling will help you in working closely with quantitative strategists, subject matter experts, and other development resources to research and build features, components, and analytics for a new analytical platform in development in Investment Management that aims to better assess and mitigate Market Risk in the context of our General Investment Account. This role requires both Python and SQL programming ability and comfort with emerging cloud-based technologies. You will work in a fast-paced, innovative and collaborative environment to build MassMutual’s market analytics infrastructure and other exciting technology directives. In addition to building applications and analytics infrastructure, the candidate will support applications already built by the team, understand them and be able to debug when issues arise.
+The Impact:
+The quantitative developer’s primary responsibility is to own and advance the back-end tools needed to manage Market Risk, especially in relation to our assets and liabilities. To do this, the role has accountability for performing the following:
+•	Research, architect, design, and build cutting edge technology solutions to support Portfolio Managers in Asset Liability Management
+•	Leverage cloud solutions and implement web applications, tools, and APIs
+•	Develop and provide unit, integration, and regression tests for platform stability and business continuity
+•	Own and undertake broader special research and development projects in support of Asset Liability Management, and hedging of tail risk exposures
+•	Collaborate with colleagues in other departments of MassMutual for modelling and analytics builds
+•	Build and support functionality and applications in support of the current Market Risk build out as well as support for day to day hedging of portfolio
+•	Own and support already built functionality and applications which track portfolio risk, and provide guidance for Asset Liability Management
+•	Own and support new and existing functionality for back testing and analysis of trade ideas involving various market factors, which will result in better risk hedging and taking advantages of market opportunities
+The Minimum Qualifications
+•	At least 10 years of background/understanding of financial instruments, rate risk, equity instruments and equity risk
+•	Experience at an investment firm in a market setting
+•	Strong Python coding background
+•	Proclivity for automation
+•	Code management and testing
+•	Degree in STEM
+•	Experience developing code
+•	Experience developing analytics models for valuation and risk calculations across market instruments
+The Ideal Qualifications
+•	Ability to work and develop code in a group setting, where multiple developers build parts of the same process
+•	Working knowledge of financial rate instruments, rate risk, equity instruments and equity risk
+•	Key technologies: Python, SQL, Excel, Git, AWS, and related tools and open-source packages
+•	Ability to work unsupervised on projects and tasks supporting the Market Risk build-out and day to day portfolio management tasks
+•	Ability to take ownership of developed code, be able to make decisions on best approach and defend those decisions
+Salary Range:
+$159,800.00-$209,700.00
+
+
+
+Lead Quantitative Developer/Engineer
+•	Apply
+•	Refer
+•	The Opportunity
+
+As a lead quantitative engineer/developer, you will be responsible for architecting and developing financial quantitative systems that support investment portfolio management activities.
+The Team
+
+The immediate team is composed of quantitative developers and strategists with proclivity for solving both technical and business problems. The team is part of the larger R&D group within Investment Management overseeing the General Investment Account. The team is very hands-on and proactive about engaging new ideas and challenges.
+The Impact
+•	Lead strategic and technological support for credit investments, benchmarking, and pricing activities.
+•	Shape the architecture and design of a new investment system, providing advanced analytics to portfolio managers
+•	Combine various on-prem data sources, vendor APIs, third-party SDKs, and proprietary software into an integrated system
+•	Develop new and scalable code based on business requirements set forth by the portfolio managers for various product lines which will help to streamline benchmarking and pricing activities
+•	Research new technologies to continually improve and modernize our investment technology stack in support of business needs
+•	Champion pythonic software development patterns
+•	Mentor and guide junior staff in software engineering and development best practices
+The Minimum Qualifications
+•	10+ years working in financial services as quant developer/engineer
+•	Holds a bachelor’s in a technical field
+•	Advanced understanding of the python programming language and patterns
+•	Knowledge of the python analytic ecosystem
+•	Experience with cloud infrastructure
+•	Some knowledge of Capital Markets
+•	Knowledge of data modeling and database design
+•	Propensity for automation, refactoring, and expanding technical capabilities
+•	Hands-on with SDLC and documentation
+The Ideal Qualifications
+•	Holds a master’s degree in a technical field
+•	Experience influencing and supporting portfolio managers in a high-stakes market setting
+•	Professional certification in business and/or quantitative finance
+•	Knowledge of credit and derivative assets
+•	Experience in FastAPI, Django, or Flask
+•	Experience developing applications in Dash and PyXLL
+•	Advanced knowledge of pandas and scikit-learn
+•	Designing data models in PostgreSQL and SQL Server, leveraging pydantic and SQLAlchemy
+•	Developing code in GitHub
+•	Testing software using pytest
+#LI-IZ1
+Salary Range:
+$159,800.00-$209,700.00
+
+
+
+Head of Market and Liquidity Risk Management
+•	Apply
+•	Refer
+•	The Opportunity
+This is an opportunity for an exceptional, highly motivated, collaborative, experienced risk individual to join MassMutual’s Capital and Investment Risk Management team (within the Enterprise Risk Management division) to influence the management of risks associated with MassMutual’s investment decisions and use of capital.
+With a focus on market risk and liquidity risk management, you will partner with leaders across ERM, Investment Management and CFO to identify, measure and develop recommendations to manage enterprise investment risk exposures.
+As part of the Capital & Investment Risk leadership team, you will provide a view into the functional effectiveness of the team (e.g., collaborating with your peers on the coordination and prioritization of work, evolution of processes). You will also support the Head of Capital & Investment Risk and team strategy with high-level thought leadership.
+The Team
+The Capital & Investment Risk team works closely with the Investment Management and Finance divisions to deliver insights and influence decisions regarding MassMutual’s investment risk-taking and use of capital, helping to protect MassMutual’s financial strength and enable it to achieve its strategy.
+The team brings together a diverse team of experts across capital markets, risk management, actuarial, and quantitative disciplines that works together to deliver analysis and recommendations related to the management of credit, market, liquidity and capital risk, consistent with the enterprise risk appetite framework for which the team is also responsible. The team continues to be successful in driving improvements in tools, technology and processes, for more consistent risk analysis and reporting, and enabling greater opportunities for scale and efficiency within ERM and with stakeholders in Investment Management and Finance.
+The Impact:
+You will ensure MassMutual’s market and liquidity risks are well mitigated, with robust risk management controls and frameworks in place, that remain appropriate for MassMutual’s evolving business strategy and operating environment.
+You will also partner with your Capital & Investment Risk peers to ensure that the variety of analytical and risk management processes and deliverables within the team are connected and scaled for maximum impact and efficiency.
+A key to success in this position will be the ability to work collaboratively with other leaders within Capital & Investment Risk Management, the Investment Management and Finance functions, and within MassMutual’s asset management subsidiaries. The incumbent will have experience leading teams, facilitating fluid communications, and uniting people across organizations to keep them moving forward.
+Notable responsibilities include:
+•	Oversight responsibility for market and liquidity risk management, coordinating with leaders in Investment Management and CFO to ensure these frameworks and their execution remain current and appropriate to the company’s overall objectives and risk appetite
+•	Provide oversight and thought leadership into asset allocation and ALM processes in the context of insurance liability driven investing to ensure there is an optimal balance between risk & reward consistent with aggregate risk appetite, and review investment guidelines and risk limits for reasonableness and propose alternatives where needed
+•	Ensure the company maintains a robust, holistic approach to managing liquidity risk, including managing and recommending changes as needed to stressed liquidity and contingent liquidity plans, policies and reporting
+•	Partner with others in Capital & Investment Risk Management, notably Head of Capital Risk, to analyze potential impacts and available management options associated with market stresses and other tail scenarios, to recommend appropriate actions, including the execution and management of a macro-economic tail hedge program
+•	Support ESG sustainability strategy and investment policy for MassMutual
+•	Scope out and lead complex projects, often in a matrixed setting across multiple functions applying change management, influencing, and communication skills
+•	Present risk analysis and recommendations to the Investment Oversight Committee and Enterprise Risk Committee
+•	Attract, develop and retain top talent with a special focus on DEI and career development
+To do this, it is expected that you will:
+•	Inspire and motivate ERM colleagues to succeed in the function’s key priorities
+•	Quickly establish credibility with a wide range of stakeholders
+•	Proactively collaborate with other teams in ERM as well as in the business lines
+•	Be a committed team player and a dedicated coach/player manager
+•	Inform and influence others appropriately, clearly and on a timely basis
+•	Adapt and thrive in complex, uncertain and changing situations
+•	Listen actively, and challenge yourself and others to think about all angles of the issue
+•	Quickly self-educate on new topics with less familiarity
+•	Have interest in a wide range of business issues
+The Minimum Qualifications [not yet completed]
+•	15+ years of relevant work experience working in investment risk management (insurance company focus);
+•	Extensive experience in quantitative credit and asset allocation modeling
+•	Experience performing detailed analysis of risks associated with different asset classes including structured assets
+•	Previous experience working on liability driven investing projects within an insurance company
+•	Knowledge and experience working with derivatives and hedging risk management
+•	An advanced degree in Financial Engineering, Mathematics, Physics, Engineering or similar quantitative discipline preferred;
+•	CFA or CAIA or FRM preferred;
+•	Understanding of the insurance industry is desirable;
+•	Well established record of project management;
+•	Success working in collaborative team environment with matrix management;
+•	Strong executive communication and presentation skills; and,
+•	Ability to work independently and take initiative.
+The Ideal Qualifications
+•	Deep investment risk expertise within the insurance industry, including a clear understanding of market and liquidity risk frameworks, taxonomy and related risk management techniques and tools
+•	Experience in executing or overseeing asset allocation and ALM processes
+•	Capital markets experience, including detailed knowledge and experience working with derivatives and hedging risk management, as well as familiarity with range of asset classes relevant to MassMutual
+•	Superior communication skills, both verbal and visual
+•	Strong analytical and problem-solving skills, including ability to drill down on details, perform analyses, resolve issues and distill findings into a concise summary of key conclusions and recommendations
+•	Experience of leading large, complex projects
+•	10+ years of insurance risk experience
+•	Working knowledge and experience working on ESG initiatives
+•	An advanced degree in Financial Engineering, Mathematics, Actuarial Science, Physics, Engineering or similar quantitative discipline preferred;
+•	Relevant professional certifications (e.g., FSA, CFA, CAIA, FRM) preferred
+What to Expect as Part of MassMutual and the Team
+•	Regular meetings with peer leaders within the Capital & Investment Risk Team, senior stakeholders in Investment Management and CFO, as well as regular interactions with the Investment Oversight Committee and Enterprise Risk Committees
+•	Focused one-on-one meetings with your manager
+•	Access to mentorship opportunities
+•	Networking opportunities including access to Asian, Hispanic/Latinx, African American, women, LGBTQ, veteran and disability-focused Business Resource Groups
+•	Access to learning content on Degreed and other informational platforms
+•	Your ethics and integrity will be valued by a company with a strong and stable ethical business with industry leading pay and benefits
